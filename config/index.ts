@@ -1,7 +1,7 @@
 import type { AppInfo } from '@/types/app'
 export const APP_ID = `e7d56e68-9cc1-44dd-8a26-c3275c1b8d5f`
 export const API_KEY = `app-yLElvcPkzfarA6OjZRcHILZX`
-export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
+export const API_URL = `https://api.dify.ai/v1`
 export const APP_INFO: AppInfo = {
   title: 'Title Engine',
   description: 'Paste in your boring academic study title. Get a hook-y one in return!',
